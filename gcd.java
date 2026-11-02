@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class gcd {
-    public static void main(String[] args) {
+    void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println("First number: ");
