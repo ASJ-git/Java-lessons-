@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class gcd {
-    void main(String[] args) {
+     void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println("First number: ");
@@ -25,4 +24,4 @@ public class gcd {
         return (x * y) / gcdFinder(x, y);
     }
 
-}
+
