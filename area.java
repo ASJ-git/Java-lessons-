@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class area {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter the radius of the circle in meters: ");
@@ -14,4 +13,4 @@ public class area {
 
         input.close();
     }
-}
+
