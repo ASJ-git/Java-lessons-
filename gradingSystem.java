@@ -5,15 +5,15 @@ public class gradingSystem {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Enter your exam score");
+        System.out.println("Enter your exam score: ");
         double examScore = input.nextDouble();
         boolean passedExams = examScore >= 25;
 
-        System.out.println("Enter your assessment score");
+        System.out.println("Enter your assessment score: ");
         double assessmentScore = input.nextDouble();
         boolean passedAssessments = assessmentScore >= 15;
 
-        System.out.println("Enter fess paid");
+        System.out.println("Enter fess paid: ");
         double feesPaid = input.nextDouble();
         boolean paidFees = feesPaid >= 100;
 
